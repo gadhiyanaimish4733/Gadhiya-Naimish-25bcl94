@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main (){
+float x;
+printf("enter a value for kg = ");
+scanf("%f",&x);
+printf(" your gram value is =%f gram", x*1000); 
+return 0;
+}
