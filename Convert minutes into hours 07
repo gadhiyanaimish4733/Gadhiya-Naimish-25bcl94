@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main (){
+float x,y;
+float ans;
+printf("enter a vlaue for minutes = ");
+scanf("%f",&x);
+ans=x/60;
+printf("%f", ans);
+return 0;
+}
