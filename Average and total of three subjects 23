@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+float x,y,z, total, avg;
+printf("enter a value
+scanf("%f", &x);
+printf("enter a value for y =");
+scanf("%f",&y);
+printf("enter a value for z =");
+scanf("%f",&y);
+total =x+y+x;
+avg=total/3;
+printf("your total is =%f", total);
+printf("\nyour avg is =%f", avg);
+}
