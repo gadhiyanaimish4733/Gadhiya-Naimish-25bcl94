@@ -1,0 +1,8 @@
+#include <stdio.h> 
+int main(){ 
+float x; 
+printf("enter a value for fahrenheit = "); 
+scanf ("%f", &x);
+printf("your celsius value is =%f", (x-32)*5/9); 
+return 0;
+}
