@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main (){
+float x;
+printf("enter a value for byts= ");
+scanf("%f",&x);
+printf("your kb value is =%f kb",x/1024);
+printf("\n your mb value is = %f mb",x/1024/1024);
+printf("\n your gb value is = %f gb",x/1024/1024/1024); 
+return 0;
+}
