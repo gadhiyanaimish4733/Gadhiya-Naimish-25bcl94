@@ -7,5 +7,5 @@ printf("enter value of y = ");
 scanf("%d",&y);
 ans=x*y;
 printf("your ans = %d", ans);
-return 0:
+return 0;
 }
